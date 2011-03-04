@@ -11,3 +11,8 @@
 <h3><?php __('Making Git Pretty'); ?></h3>
 <p>Make it easy to see what is going on at a glance</p>
 <script src="https://gist.github.com/634750.js?file=bashrc.sh"></script>
+<?php
+	echo $this->Html->image(
+		'https://assets0.github.com/img/1a6ef5908a1a332a37ccfe3a0938045a762495b4?repo=&url=http%3A%2F%2Foi54.tinypic.com%2F2qjxhzd.jpg&path='
+	);
+?>

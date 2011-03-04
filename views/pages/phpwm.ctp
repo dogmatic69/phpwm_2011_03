@@ -22,6 +22,21 @@
 	<?php
 		echo sprintf(
 			'<span class="notice success">%s %s</span>',
+			__('Generating the code', true),
+			$this->Html->link(
+				'->',
+				array(
+					'controller' => 'conventions',
+					'action' => 'home'
+				)
+			)
+		);
+	?>
+</p>
+<p>
+	<?php
+		echo sprintf(
+			'<span class="notice success">%s %s</span>',
 			__('Conventions', true),
 			$this->Html->link(
 				'->',

@@ -7,6 +7,9 @@ PHPWM - Some things about CakePHP.
 
 ∞) pizza
 
+The SQL to create the database is in config/schema/phpwm.sql just dump that in the
+db, make sure mod_rewrite is working (there should be color) and you are good to go.
+
 This is my talk I did at the March 2011 PHPWM meetup about CakePHP. Would make 
 more sense if you were there, or not. If you need more info about this get me on
 irc, twitter, phpwm mailing list or just about any other method you can think of.
